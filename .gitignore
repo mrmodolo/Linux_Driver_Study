@@ -2,3 +2,11 @@
 ldd4/
 private_key.priv
 public_key.der
+*.o
+*.ko
+*.mod
+*.cmd
+*.orders
+*.order
+*.symvers
+*.mod.c
