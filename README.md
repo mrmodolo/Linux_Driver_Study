@@ -30,8 +30,8 @@ sudo dkms remove ${DRV_NAME}/${DRV_VERSION} --all
 ## kmodsign
 
 ```bash
-sudo kmodsign sha512 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der /home/modolo/linux_device_drivers/hello_world/hello.ko
-sudo insmod /home/modolo/linux_device_drivers/hello_world/hello.ko
+sudo kmodsign sha512 /var/lib/shim-signed/mok/MOK.priv /var/lib/shim-signed/mok/MOK.der hello.ko
+sudo insmod hello.ko
 ```
 
 [Building Debian kernel modules with DKMS](https://wiki.debian.org/KernelDKMS)
